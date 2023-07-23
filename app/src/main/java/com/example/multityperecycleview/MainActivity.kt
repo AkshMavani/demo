@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-
+//this is my main activity
 class MainActivity : AppCompatActivity() {
     val parentModelClass:ArrayList<ParentModelClass> = ArrayList()
     val childModelClass:ArrayList<ChildModelClass> = ArrayList()
