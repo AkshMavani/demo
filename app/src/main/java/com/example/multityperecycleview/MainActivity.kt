@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         latestlist.add(ChildModelClass(R.drawable.banana))
         latestlist.add(ChildModelClass(R.drawable.orange))
         latestlist.add(ChildModelClass(R.drawable.splash))
-        parentModelClass.add(ParentModelClass("Leatest Fruit",latestlist))
+        parentModelClass.add(ParentModelClass("Leatest Fruit list---",latestlist))
 
         recentlist.add(ChildModelClass(R.drawable.apple))
         recentlist.add(ChildModelClass(R.drawable.banana))
@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity() {
         recentlist.add(ChildModelClass(R.drawable.mango))
         recentlist.add(ChildModelClass(R.drawable.orange))
         recentlist.add(ChildModelClass(R.drawable.splash))
-
-
         parentModelClass.add(ParentModelClass("Recently Fruit",recentlist))
 
         favoriteList.add(ChildModelClass(R.drawable.apple))
