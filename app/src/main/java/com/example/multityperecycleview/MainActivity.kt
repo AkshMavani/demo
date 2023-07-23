@@ -47,6 +47,13 @@ class MainActivity : AppCompatActivity() {
         favoriteList.add(ChildModelClass(R.drawable.mango))
         parentModelClass.add(ParentModelClass("Recently movie",favoriteList))
 
+        favoriteList.add(ChildModelClass(R.drawable.apple))
+        favoriteList.add(ChildModelClass(R.drawable.banana))
+        favoriteList.add(ChildModelClass(R.drawable.orange))
+        favoriteList.add(ChildModelClass(R.drawable.splash))
+        favoriteList.add(ChildModelClass(R.drawable.mango))
+        parentModelClass.add(ParentModelClass("Recently favourite",favoriteList))
+
         childModelClass.clear()
         childModelClass.add(ChildModelClass(R.drawable.mango))
         childModelClass.add(ChildModelClass(R.drawable.apple))
